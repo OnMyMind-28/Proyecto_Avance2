@@ -9,26 +9,28 @@
     <script src="https://kit.fontawesome.com/dbb994acbb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body>
-    <form  class="formulario">
+<body style="background-color: #E2E2E2;">
+    <div align="center" style="background-color: #3D0A3B;height: 50px;">
+        <img src="img/Logo/1.logo.png" class="p-2" >
+    </div>
+    <form  class="formulario mt-5" align="center">
         <h1>Iniciar Sesion </h1>
         </div>
 
-        <div class="contenedor"></div>
+        <div class="contenedor p-2"></div>
         <div class="input-contenedor">
         <input id="email" class="" type="text" placeholder="Email">
 
         </div>
 
-        <div class="contenedor"></div>
+        <div class="contenedor p-2"></div>
         <div class="input-contenedor">
         <input id="password" class="" type="password" placeholder="Password">
         </div>
 
-        <button class="control" type="button" onclick="login()">Iniciar Sesion</button>
-        <p> Al registrarse acepta nuestras codiciones y politica de privacidad </p>
-        <p> ¿no tienes una cuenta? <a class="link" href="Registro.html">Registrate</a></p>
-
+        <button class="control mt-4" type="button" onclick="login()" style="background-color: purple; color:#FFFF; ">Iniciar Sesion</button>
+        <p class="p-2"> ¿no tienes una cuenta? <a class="link" href="Registro.html">Registrate</a></p>
+        <p class=""> Al registrarse acepta nuestras codiciones y politica de privacidad </p>
         <div class="alert alert-danger" id="error" style="display: none;"></div>
           
          
