@@ -1,27 +1,27 @@
 //CATEGORIA TECNOLOGIA 
 var empresa = [
     {//JSON 1
-        nombreEmpresa: 'Samsung',
-        urlImagen: 'img/Tecnologia/Empresas/1.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Siman',
+        urlImagen: 'img/Salud/Farmacias/1.far.png',
+        categoria: 'Salud',
         calificacion: 4
     },
     {//JSON 2
-        nombreEmpresa: 'Sony',
-        urlImagen: 'img/Tecnologia/Empresas/2.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Kielsa',
+        urlImagen: 'img/Salud/Farmacias/2.far.png',
+        categoria: 'Salud',
         calificacion: 4
     },
     {//JSON 3
-        nombreEmpresa: 'HP',
-        urlImagen: 'img/Tecnologia/Empresas/3.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Farma City',
+        urlImagen: 'img/Salud/Farmacias/3.far.png',
+        categoria: 'Salud',
         calificacion: 5
     },
     {//JSON 4
-        nombreEmpresa: 'Apple',
-        urlImagen: 'img/Tecnologia/Empresas/4.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Farmacias del Ahorro',
+        urlImagen: 'img/Salud/Farmacias/4.far.png',
+        categoria: 'Salud',
         calificacion: 5
     }
    

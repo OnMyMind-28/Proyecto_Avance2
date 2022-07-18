@@ -1,27 +1,27 @@
 //CATEGORIA COMIDA
 var restaurante = [
     {//JSON 1
-        nombreRestaurante: 'Samsung',
-        urlImagen: 'img/Comida/Productos/1.food.png',
-        categoria: 'Tecnología',
+        nombreRestaurante: 'Little Caesars',
+        urlImagen: 'img/Comida/Restaurantes/1.res.png',
+        categoria: 'Comida',
         calificacion: 4
     },
     {//JSON 2
-        nombreRestaurante: 'Sony',
-        urlImagen: 'img/Tecnologia/Empresas/2.emp.png',
-        categoria: 'Tecnología',
+        nombreRestaurante: 'KFC',
+        urlImagen: 'img/Comida/Restaurantes/2.res.png',
+        categoria: 'Comida',
         calificacion: 4
     },
     {//JSON 3
-        nombreRestaurante: 'HP',
-        urlImagen: 'img/Tecnologia/Empresas/3.emp.png',
-        categoria: 'Tecnología',
+        nombreRestaurante: 'Burger King',
+        urlImagen: 'img/Comida/Restaurantes/3.res.png',
+        categoria: 'Comida',
         calificacion: 5
     },
     {//JSON 4
-        nombreRestaurante: 'Apple',
-        urlImagen: 'img/Tecnologia/Empresas/4.emp.png',
-        categoria: 'Tecnología',
+        nombreRestaurante: 'Taco Bell',
+        urlImagen: 'img/Comida/Restaurantes/4.res.png',
+        categoria: 'Comida',
         calificacion: 5
     }
    
