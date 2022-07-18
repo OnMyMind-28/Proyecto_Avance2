@@ -2,7 +2,12 @@
     width: 190px;
     display: inline-block;
 }
+
 .img{
     width: 190px;
     display: inline;
+    
+}
+.imgCard {
+    display: flex;
 }
