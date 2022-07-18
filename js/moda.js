@@ -1,27 +1,27 @@
 //CATEGORIA TECNOLOGIA 
 var empresa = [
     {//JSON 1
-        nombreEmpresa: 'Samsung',
-        urlImagen: 'img/Tecnologia/Empresas/1.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Carrion',
+        urlImagen: 'img/Moda/Tiendas/1.shop.png',
+        categoria: 'Moda',
         calificacion: 4
     },
     {//JSON 2
-        nombreEmpresa: 'Sony',
-        urlImagen: 'img/Tecnologia/Empresas/2.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Mendels',
+        urlImagen: 'img/Moda/Tiendas/2.shop.png',
+        categoria: 'Moda',
         calificacion: 4
     },
     {//JSON 3
-        nombreEmpresa: 'HP',
-        urlImagen: 'img/Tecnologia/Empresas/3.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Payless',
+        urlImagen: 'img/Moda/Tiendas/3.shop.png',
+        categoria: 'Moda',
         calificacion: 5
     },
     {//JSON 4
-        nombreEmpresa: 'Apple',
-        urlImagen: 'img/Tecnologia/Empresas/4.emp.png',
-        categoria: 'Tecnología',
+        nombreEmpresa: 'Mango',
+        urlImagen: 'img/Moda/Tiendas/4.shop.png',
+        categoria: 'Moda',
         calificacion: 5
     }
    
