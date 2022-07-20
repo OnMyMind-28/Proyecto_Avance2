@@ -11,3 +11,23 @@
 .imgCard {
     display: flex;
 }
+.body{
+    background-image: url(img/Logo/1.logo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+background-attachment: fixed;  
+    margin: 0;
+
+}
+
+  /*Los id */
+ #contenido {
+  
+     background-color: rgba(0, 0, 0, 0.5) ;
+     height: 100vh; 
+    }
+
+    #log {
+     margin: 0;
+    }
