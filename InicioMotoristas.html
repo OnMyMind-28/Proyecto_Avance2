@@ -10,22 +10,32 @@
     <link rel="stylesheet" href="css/estilos.css">
     
 </head>
-<body style="background-color: #E2E2E2;">
+<body style="background-color: #621589;">
    
-    <div align="center" style="background-color: #3D0A3B;height: 50px;">
-        <img src="img/Logo/1.logo.png" class="p-2">
-    </div>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg " style="background-color:#3D0A3B;" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <!--<img src="img/Logo/1.logo.png" > -->
+            <img src="img/Logo/1.logo.png" >
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div  class="collapse navbar-collapse" id="navbarSupportedContent">
+            <nav class="nav  " >
+              <a class="nav-link active " aria-current="page" href="SesionMotorista.html" style="color:#FFFFFF;">Iniciar Sesión </a>
+              <a class="nav-link active " aria-current="page" href="RegistroMotorista.html" style="color:#FFFFFF;">Registrarse</a>
+              
+            </nav>
+          </div>
+        </div>
+      </nav>
     <div >
-        <img class="img-fluid" id="log" style="background-color: purple;" src="img/Imagen-principal/4.principal.jpg">
-    </div>
-    <p>Motoristas</p>
-    <div align="center"  >
-        <a class=" btn btn-primary link me-2" href="SesionMotorista.html" style="color: white;" role="button">Iniciar Sesion</a>
-        <a class="link btn btn-primary" href="RegistroMotorista.html" style="color: white;" role="button">Registrarse</a>
+        <img class="img-fluid" id="log" style="background-color: purple;" src="img/Motoristas/1.delivery.jpg">
     </div>
     
-    
-    
+
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="js/controlador.js"></script>
