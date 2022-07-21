@@ -27,14 +27,35 @@
         <div class="input-contenedor">
         <input id="password" class="" type="password" placeholder="Password">
         </div>
-
-        <button class="control mt-4" type="button" onclick="login()" style="background-color: purple; color:#FFFF; ">Iniciar Sesion</button>
+        <!--<button class="control mt-4" type="button" onclick="login()" style="background-color: purple; color:#FFFF; " data-bs-toggle="modal" data-bs-target="#modalSesion">Iniciar Sesion</button>-->
+        <a class="btn btn-primary p-2 mt-3" href="index.html" role="button">Iniciar Sesión</a>
         <p class="p-2"> ¿no tienes una cuenta? <a class="link" href="Registro.html">Registrate</a></p>
         <p class=""> Al registrarse acepta nuestras codiciones y politica de privacidad </p>
         <div class="alert alert-danger" id="error" style="display: none;"></div>
           
          
     </form>
+     <!--Modal-->
+     <!--<div id="modalSesion" class="modal" tabindex="-1">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Registro con exito</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <p>¡Gracias! por unirte a ThatStore, disfruta de la experiencia.</p>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary" >Ir a mi cuenta</button>
+              
+              <a class="btn btn-primary" href="index.html" role="button">Ir a mi cuenta</a>
+            </div>
+          </div>
+        </div>
+      </div>-->
+     
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
     <script src="js/controlador.js"></script>
