@@ -9,7 +9,8 @@
     
 }
 .imgCard {
-    display: flex;
+    width: 275px;
+    height: 387px;
 }
 .body{
     background-image: url(img/Logo/1.logo.png);

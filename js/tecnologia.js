@@ -22,7 +22,31 @@ var producto = [
         nombreProducto: 'Apple',
         urlImagen: 'img/Tecnologia/Productos/4.tec.png',
         categoria: 'Tecnología',
+        calificacion: 3
+    },
+     {//JSON 5
+        nombreProducto: 'HP',
+        urlImagen: 'img/Tecnologia/Productos/1.tec.png',
+        categoria: 'Tecnología',
+        calificacion: 4
+    },
+     {//JSON 6
+        nombreProducto: 'HP',
+        urlImagen: 'img/Tecnologia/Productos/2.tec.png',
+        categoria: 'Tecnología',
+        calificacion: 2
+    },
+     {//JSON 7
+        nombreProducto: 'HP',
+        urlImagen: 'img/Tecnologia/Productos/3.tec.png',
+        categoria: 'Tecnología',
         calificacion: 5
+    },
+     {//JSON 8
+        nombreProducto: 'HP',
+        urlImagen: 'img/Tecnologia/Productos/4.tec.png',
+        categoria: 'Tecnología',
+        calificacion: 2
     }
    
 ];
@@ -40,27 +64,30 @@ function generarProducto(){
        
         //para mostrar las emp creadas en los en JSON 
         document.getElementById('producto').innerHTML += 
-        `<a href="index.html">
-        <div class="col-12 col-sm-6 col-md-4 col-lg-3 col-xl-2"> 
+        ` 
+        <div class=""> 
                <div class="card">
                   <img src="${prod.urlImagen}" class="card-img-top app-img" onclick="editarApp(${i})">
                   <div class="card-body">
                     <h5 class="card-title">${prod.nombreProducto}</h5>
                     <p class="card-text"> Categoría: ${prod.categoria}</p>
-                     <div>
-                       ${estrellas}
-                       <button class="btn btn-warning btn-sm " style="float:right background-color: yellow;" onclick="comprar(${i})" >Comprar</button> 
+                     <div >
+                       <button class="btn btn-warning btn-sm " style="float:center " onclick="comprar()" >Comprar</button> 
                     </div>
                 </div>
                </div>
             </div> 
-            </a>`;
+            `;
     }); 
 }
 generarProducto()
 //funcion para ingresar a los productos de la marca
-function Irempresa() {
-    
+function comprar() {
+    document.getElementById('producto').innerHTML += 
+        `<a href="Comida.html">
+            
+        </a>`;
 }
+comprar()
 
 
