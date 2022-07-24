@@ -121,3 +121,10 @@ background-attachment: fixed;
             color:#fff;
             
             }
+/*Para card de tecnologia productos*/
+.app-img{
+    cursor: pointer;
+}
+.app-img:hover {
+filter: grayscale(1);
+}
