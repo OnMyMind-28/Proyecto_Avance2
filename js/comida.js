@@ -2,25 +2,25 @@
 var restaurante = [
     {//JSON 1
         nombreRestaurante: 'Little Caesars',
-        urlImagen: 'img/Comida/Restaurantes/1.res.png',
+        urlImagen: 'img/Comida/Productos/1.food.png',
         categoria: 'Comida',
         calificacion: 4
     },
     {//JSON 2
         nombreRestaurante: 'KFC',
-        urlImagen: 'img/Comida/Restaurantes/2.res.png',
+        urlImagen: 'img/Comida/Productos/2.food.png',
         categoria: 'Comida',
         calificacion: 4
     },
     {//JSON 3
         nombreRestaurante: 'Burger King',
-        urlImagen: 'img/Comida/Restaurantes/3.res.png',
+        urlImagen: 'img/Comida/Productos/3.food.png',
         categoria: 'Comida',
         calificacion: 5
     },
     {//JSON 4
         nombreRestaurante: 'Taco Bell',
-        urlImagen: 'img/Comida/Restaurantes/4.res.png',
+        urlImagen: 'img/Comida/Productos/4.food.png',
         categoria: 'Comida',
         calificacion: 5
     }
@@ -40,22 +40,16 @@ function generarRestaurante(){
        
         //para mostrar las Res creadas en los en JSON 
         document.getElementById('restaurante').innerHTML += 
-        ` <div class=" mt-5 "> 
+        `<div class=""> 
                <div class="card">
-               <div class="Padre grid ">
-               <div class="Hijo " align="center" style="background-color: white; height: 100px; width: 600px;">
-                <img src="${Res.urlImagen}" class="imgCard card-img-left" align="middle">
-                </div>
-                <div class="Hijo card-body mt-5" >
-                    <h3 class="card-title " onclick="IrRestaurante()">${Res.nombreRestaurante}</h3>
-                    <p>Acepta pago online</p>
-                    <p class="card-text "> Categoría: ${Res.categoria}</p>
-                     <div>
-                       ${estrellas}
-                       
+                  <img src="${Res.urlImagen}" class="card-img-top app-img" onclick="editarApp(${i})">
+                  <div class="card-body">
+                    <h5 class="card-title">${Res.nombreRestaurante}</h5>
+                    <p class="card-text"> Categoría: ${Res.categoria}</p>
+                     <div >
+                       <button class="btn btn-warning btn-sm " style="float:center " onclick="comprar()" >Comprar</button> 
                     </div>
-
-               </div>
+                </div>
                </div>
             </div>`;
     }); 
