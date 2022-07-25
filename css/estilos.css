@@ -9,15 +9,15 @@
     
 }
 .imgCard {
-    width: 275px;
-    height: 387px;
+  display: flex;
 }
+
 .body{
     background-image: url(img/Logo/1.logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-background-attachment: fixed;  
+    background-attachment: fixed;  
     margin: 0;
 
 }

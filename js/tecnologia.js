@@ -64,8 +64,7 @@ function generarProducto(){
        
         //para mostrar las emp creadas en los en JSON 
         document.getElementById('producto').innerHTML += 
-        ` 
-        <div class=""> 
+        `<div class=""> 
                <div class="card">
                   <img src="${prod.urlImagen}" class="card-img-top app-img" onclick="editarApp(${i})">
                   <div class="card-body">
@@ -76,8 +75,7 @@ function generarProducto(){
                     </div>
                 </div>
                </div>
-            </div> 
-            `;
+            </div>`;
     }); 
 }
 generarProducto()

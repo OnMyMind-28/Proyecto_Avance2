@@ -40,22 +40,16 @@ function generarempresa(){
        
         //para mostrar las emp creadas en los en JSON 
         document.getElementById('empresa').innerHTML += 
-        ` <div class=" mt-5 "> 
+        `<div class=""> 
                <div class="card">
-               <div class="Padre grid ">
-               <div class="Hijo " align="center" style="background-color: white; height: 100px; width: 600px;">
-                <img src="${emp.urlImagen}" class="imgCard card-img-left" align="middle">
-                </div>
-                <div class="Hijo card-body mt-5" >
-                    <h3 class="card-title " onclick="Irempresa()">${emp.nombreEmpresa}</h3>
-                    <p>Acepta pago online</p>
-                    <p class="card-text "> Categoría: ${emp.categoria}</p>
-                     <div>
-                       ${estrellas}
-                       
+                  <img src="${emp.urlImagen}" class="card-img-top app-img" onclick="editarApp(${i})">
+                  <div class="card-body">
+                    <h5 class="card-title">${emp.nombreEmpresa}</h5>
+                    <p class="card-text"> Categoría: ${emp.categoria}</p>
+                     <div >
+                       <button class="btn btn-warning btn-sm " style="float:center " onclick="comprar()" >Comprar</button> 
                     </div>
-
-               </div>
+                </div>
                </div>
             </div>`;
     }); 
