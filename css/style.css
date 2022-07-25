@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+
+.encabezado{
+    background-color:  hwb(286 62% 16% / 0.924);
+    font-family: sans-serif;
+    font-size: 20px; 
+}
+
+.encabezado-imagen{
+  width: 12%;
+  padding:5px;
+  margin:6px;
+}
+
+
+
+
+body{
+    margin: 0 ;
+    padding: 0;
+    background-color: hsla(323, 66%, 53%, 0.551);
+}
+
+/*de la clase inicio*/
+.B-principal{
+
+  background-image: linear-gradient(to right, hsla(212, 80%, 42%, 0.534), hsla(2, 65%, 44%, 0.658)), url(../img/ADMI/amid.jpg);
+}
+
+.formulario{
+ width: auto;
+ 
+
+}
+
+
+/*Index*/
+img{
+  width: 18%;
+}
+
+/*
+.g-p{
+ 
+  font-family: sans-serif;
+    font-style: normal;
+    color: black<;
+  font-size: 30px;
+
+}
+
+.g-p{
+   
+    font-weight: bold; 
+    font-style: italic;
+  
+}
+*/
+
+.c{
+  font-family: sans-serif;
+  color: black;
+font-size: 15px;
+}
+
+
+.row{
+   display: flex;
+   padding: 10px;
+   flex-wrap: wrap;
+}
+
+.Column{
+  flex: 25%;
+  padding: 5px;
+
+}
+
+.Columna img{
+    margin-top: 10px;
+}
+
+.Columnb  img{
+  margin-top: 30px;
+}
+
+@media (max-width: 800px){
+    .Column{
+    flex: 50%;
+    }
+}
+
+
+
+@media (max-width:600px){
+    .Column{
+        flex: 100%;
+       
+      }
+    }
+
+
+
+.control{
+  width: 10%;
+  Height: 40%;
+}
+
+.foot{
+  
+  font-family: sans-serif;
+  font-size: 10px;
+  
+  
+}
+
+
