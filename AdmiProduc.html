@@ -20,6 +20,7 @@
           border: 1px solid hsl(0, 0%, 98%);
           text-align: left;
           padding: 8px;
+          align: center;
         }
         
         tr:nth-child(even) {
@@ -32,7 +33,7 @@
 <body >
     <header class="encabezado" > 
         <div align="Left" style="background-color: hsla(301, 68%, 21%, 0.58);">
-        <img  class="encabezado-imagen" src="ADMI/1.logo.png" alt="1" >
+            <img  class="encabezado-imagen" src="img/Administracion/1.logo.png" alt="1" >
          <h1 id="ad-text"   align="center"  class="t-2" style="color:#ffffffcb;" > Administración Poductos </h1> 
         </div>
     </header>
@@ -70,9 +71,8 @@
 
    
     
-
-
- <nav  class="tabla"  align="center" >     
+<!--
+<nav  class="tabla"  align="center" >     
 <h2   " class=" text-tabla"  align="left">Tabla de productos </h2>
 <table>
     <tr>
@@ -101,6 +101,60 @@
    
     </table>
     </nav>
+-->  
+
+<div  class="btn_back   mt-3">
+    <button type="button" data-toggle="modal" 
+    data-target="#staticBackdrop" 
+    class="btn btn_primary btn_large">Agregar Producto</button></div>
+    
+    <div class="modal fade" id="staticBackdrop"
+    data-backdrop="static" data-keyboard="false" 
+    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <strong><h2 class="modal-title" 
+                id="staticBackdropLabel">AGREGAR UNA NUEVO PRODUCTO</h2></strong>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                <label for="nombre" class="form-label">Nombre del producto</label>
+                <input type="text" class="form-control" id="txtcomp" value="" required>
+                <div class="aggcomp">
+                  <div>
+                      <label for="cat" class="form-label">Categoría</label>
+                      <select class="form-control" id="lista-cat">
+                      </select>
+                  </div>
+                    <div> 
+                      <label for="imagen" class="form-label">Presentacion </label>
+                      <select class="form-control" id="lista-imagenes"> Subir una imagen
+                      </select>
+                    </div> 
+                    <div>
+                      <label for="desde" class="form-label">Desde</label>
+                      <input type="date" class="form-control" id="desdecomp" value="" required>
+                    </div>
+                      <div>
+                      <label for="vence" class="form-label">Vence</label>
+                      <input type="date" class="form-control" id="vencecomp" value="" required>
+                    </div>
+                  </div>
+             
+                
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn_secondary" data-dismiss="modal">Cancelar</button>
+              <button type="button" class="btn btn_primary">Agregar Producto</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</div>
 
  
  <footer class="foot mt-5" align="center"> 
