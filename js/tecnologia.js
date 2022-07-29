@@ -50,6 +50,7 @@ var producto = [
     }
    
 ];
+
 function generarProducto(){
     document.getElementById('producto').innerHTML = '';//para que al momento de guardar una nueva app no aparezacn nuevamente todas app sino, solo la que estamos guardando
         producto.forEach(function(prod, i){
@@ -66,12 +67,12 @@ function generarProducto(){
         document.getElementById('producto').innerHTML += 
         `<div class=""> 
                <div class="card">
-                  <img src="${prod.urlImagen}" class="card-img-top app-img" onclick="editarApp(${i})">
+                  <img src="${prod.urlImagen}" class="card-img-top" ">
                   <div class="card-body">
                     <h5 class="card-title">${prod.nombreProducto}</h5>
                     <p class="card-text"> Categoría: ${prod.categoria}</p>
                      <div >
-                       <button class="btn btn-warning btn-sm " style="float:center " onclick="comprar()" >Comprar</button> 
+                     <button onclick="mostrarProducto()">Haz click</button>
                     </div>
                 </div>
                </div>
@@ -80,12 +81,39 @@ function generarProducto(){
 }
 generarProducto()
 //funcion para ingresar a los productos de la marca
-function comprar() {
-    document.getElementById('producto').innerHTML += 
-        `<a href="Comida.html">
-            
-        </a>`;
+//**********************Mostrar detalles del producto */
+const producto= detalle;
+function mostrarProducto() {
+    document.getElementById('detalle').innerHTML = '';//para que al momento de guardar una nueva app no aparezacn nuevamente todas app sino, solo la que estamos guardando
+    producto.forEach(function(det, i){
+    //para la calificacion con estrellas
+    let estrellas = '';
+    for (let i = 0; i < det.calificacion; i++) {
+        estrellas += '<i class="fa-solid fa-star"></i>';  
+    }for (let i = 0; i < 5-det.calificacion; i++) {
+        estrellas += '<i class="fa-regular fa-star"></i>';  
+    }
+    
+   
+    //para mostrar las emp creadas en los en JSON 
+    document.getElementById('detalle').innerHTML += 
+    `<div class=""> 
+           <div class="card">
+              <img src="${prod.urlImagen}" class="card-img-top" ">
+              <div class="card-body">
+                <h5 class="card-title">${prod.nombreProducto}</h5>
+                <p class="card-text"> Categoría: ${prod.categoria}</p>
+                 <div >
+                 <button onclick="mostrardetalle()">Haz click</button>
+                </div>
+            </div>
+           </div>
+        </div>`;
+}); 
 }
-comprar()
+/*comprar()*/ 
+mostrarProducto()
 
-
+function miFunc() {
+    document.getElementById ('nombre-Producto').value = prod.nombreProducto;
+  }
