@@ -82,7 +82,7 @@ function generarProducto(){
 generarProducto()
 //funcion para ingresar a los productos de la marca
 //**********************Mostrar detalles del producto */
-const producto= detalle;
+
 function mostrarProducto() {
     document.getElementById('detalle').innerHTML = '';//para que al momento de guardar una nueva app no aparezacn nuevamente todas app sino, solo la que estamos guardando
     producto.forEach(function(det, i){
